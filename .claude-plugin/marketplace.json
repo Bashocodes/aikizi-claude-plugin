@@ -1,0 +1,24 @@
+{
+  "name": "aikizi",
+  "owner": {
+    "name": "Ramakrishna Sai Sharan",
+    "email": "hello@aikizi.com"
+  },
+  "metadata": {
+    "description": "AIKIZI for Claude: search decoded image styles, break them down, decode and generate with your own account.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "aikizi",
+      "source": "./",
+      "description": "Search decoded art styles and their prompts on aikizi.com, break down any published decode, and with your own AIKIZI account decode an image or generate one.",
+      "version": "1.0.0",
+      "author": { "name": "Ramakrishna Sai Sharan", "email": "hello@aikizi.com" },
+      "homepage": "https://aikizi.com/guide/mcp",
+      "license": "MIT",
+      "keywords": ["aikizi", "image", "style", "decode", "prompt", "palette"],
+      "category": "productivity"
+    }
+  ]
+}

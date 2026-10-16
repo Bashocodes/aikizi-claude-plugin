@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aikizi": {
+      "type": "http",
+      "url": "https://aikizi.com/mcp"
+    }
+  }
+}

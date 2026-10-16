@@ -1,0 +1,15 @@
+{
+  "name": "aikizi",
+  "displayName": "AIKIZI",
+  "version": "1.0.0",
+  "description": "Search decoded art styles and their prompts on aikizi.com, break down any published decode, and with your own AIKIZI account decode an image or generate one.",
+  "author": {
+    "name": "Ramakrishna Sai Sharan",
+    "email": "hello@aikizi.com",
+    "url": "https://aikizi.com"
+  },
+  "homepage": "https://aikizi.com/guide/mcp",
+  "repository": "https://github.com/Bashocodes/aikizi-claude-plugin",
+  "license": "MIT",
+  "keywords": ["aikizi", "image", "style", "decode", "prompt", "palette", "art-direction", "image-generation"]
+}
