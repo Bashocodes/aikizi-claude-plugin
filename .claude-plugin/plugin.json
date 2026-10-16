@@ -10,6 +10,17 @@
   },
   "homepage": "https://aikizi.com/guide/mcp",
   "repository": "https://github.com/Bashocodes/aikizi-claude-plugin",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://aikizi.com/legal/privacy",
   "license": "MIT",
-  "keywords": ["aikizi", "image", "style", "decode", "prompt", "palette", "art-direction", "image-generation"]
+  "keywords": [
+    "aikizi",
+    "image",
+    "style",
+    "decode",
+    "prompt",
+    "palette",
+    "art-direction",
+    "image-generation"
+  ]
 }
