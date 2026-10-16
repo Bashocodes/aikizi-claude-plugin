@@ -8,9 +8,9 @@ Claude the AIKIZI MCP server plus two skills and one command that know how to us
 
 | Piece | What it does |
 |---|---|
-| `aikizi` MCP server | Remote server at `https://aikizi.com/mcp`, nine tools (two public, seven with your account) |
+| `aikizi` MCP server | Remote server at `https://aikizi.com/mcp`, eight tools (two public, six with your account) |
 | Skill `aikizi-style-reference` | Find a style, break it down, hand you the prompt and palette. No sign-in |
-| Skill `aikizi-decode-and-generate` | Decode your own image link or generate an image with your AIKIZI credits |
+| Skill `aikizi-decode` | Decode your own image link with your AIKIZI credits, and read your library |
 | Command `/aikizi:style <words>` | Search a style and break down the three best matches |
 
 ## Install
@@ -34,7 +34,7 @@ sign-in.
 - `/aikizi:style ink wash landscape`
 - `What are the key tokens and colour hues in https://aikizi.com/decode/bc2be49a-ef44-417e-9015-4923febd46ae ?`
 - `Decode https://example.com/my-photo.jpg with my AIKIZI account.` (signed in; uses credits)
-- `Generate a painterly lighthouse at dusk on AIKIZI, 16:9.` (signed in; uses credits)
+- `List my newest AIKIZI creations and open the latest one.` (signed in)
 
 ## Tools
 
@@ -47,18 +47,17 @@ sign-in.
 | `check_job_status` | yes | no | Follow a decode that is still running |
 | `get_my_decode` | yes | no | Read one of your own decodes |
 | `list_my_creations` | yes | no | List your library |
-| `get_creation` | yes | no | Open one generated image |
-| `generate_image` | yes | yes | Make an image from a prompt |
+| `get_creation` | yes | no | Open one image you generated on aikizi.com |
 
-Decoding and generating use the credits of the signed-in account. Credits are given back when a job fails. Nothing
-in this plugin sells anything; plans and credits live on aikizi.com.
+Decoding uses the credits of the signed-in account. Credits are given back when a decode fails. Image generation is
+not offered over MCP; it stays on aikizi.com. Nothing in this plugin sells anything; plans and credits live on aikizi.com.
 
 ## What this plugin runs, sends and fetches
 
 - It runs no local code. There are no scripts, hooks or local servers; the only executable parts are the skill and
   command text files in this repository.
 - The one network destination is `https://aikizi.com/mcp`, AIKIZI's own MCP server. Claude sends it the tool
-  arguments you see in the conversation: a search query, a decode id, an image link, or a prompt.
+  arguments you see in the conversation: a search query, a decode id, an image link, or a creation id.
 - Signed-in tools send an OAuth 2.0 token that AIKIZI issues when you connect. The plugin never reads credentials
   from your machine or environment and asks for none.
 - `decode_image` makes AIKIZI's server fetch the image link you give it. The decode is stored privately in your

@@ -23,5 +23,5 @@ key tokens, colour hues and a generation prompt. The two public tools read only 
 - Quote the decode's prompt as given; mark your own edits as yours.
 - A search with no good match: try one simpler query (drop the rarest word), then say so. Do not invent styles.
 - Decodes belong to the people who published them. Describe the style; do not present the image as the person's own.
-- These tools never need the person's account. If they want to decode their own image or generate one, use the
-  `aikizi-decode-and-generate` skill, which needs an AIKIZI sign-in.
+- These tools never need the person's account. If they want to decode their own image, use the `aikizi-decode`
+  skill, which needs an AIKIZI sign-in. Image generation is not offered over MCP; it lives on aikizi.com.
