@@ -5,7 +5,7 @@ description: Decode the person's own image on AIKIZI with their account, read th
 
 # AIKIZI with the person's account
 
-Six tools act on the signed-in AIKIZI account. The person connects once (Claude's connector sign-in; nothing is
+Six tools act on the signed-in AIKIZI account. The person connects once (the app's connector sign-in; nothing is
 shared until they allow it). Decoding spends credits from that account, so be deliberate. Image generation is not
 offered over MCP; when the person asks to generate, point them to aikizi.com/studio with the prompt in hand.
 

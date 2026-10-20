@@ -24,6 +24,9 @@ From GitHub, in Claude Code:
 /plugin install aikizi@aikizi
 ```
 
+In Cursor: the same repo is a Cursor plugin (`.cursor-plugin/plugin.json`, `mcp.json`). Or add the server to
+Cursor's `mcp.json` directly: `{"mcpServers": {"aikizi": {"url": "https://aikizi.com/mcp"}}}`.
+
 The first time a signed-in tool is needed, Claude asks you to connect AIKIZI. You sign in on aikizi.com and allow
 the connection; nothing is shared until you do. Searching styles and reading published decodes work without any
 sign-in.

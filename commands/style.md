@@ -1,4 +1,5 @@
 ---
+name: style
 description: Search AIKIZI for a style and break down the best matches
 argument-hint: <style, subject, mood or colour words>
 ---
