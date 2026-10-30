@@ -85,7 +85,8 @@ AIKIZI's privacy policy: https://aikizi.com/legal/privacy · Terms: https://aiki
   Claude's connector settings or on aikizi.com.
 - Images given to `decode_image` or added with `add_image` are stored in your private library and never
   published by the server. The server never publishes, deletes or shares anything on your behalf.
-- The plugin itself collects nothing and has no analytics.
+- The plugin itself stores nothing and has no analytics; what it sends goes only to aikizi.com and the one-time
+  upload address above.
 
 ## Support
 
