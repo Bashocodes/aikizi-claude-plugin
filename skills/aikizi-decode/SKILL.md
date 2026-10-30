@@ -22,9 +22,9 @@ offered over MCP; when the person asks to generate, point them to aikizi.com/stu
    ask them to host it somewhere.
    - In the Claude apps it opens a drop box in the chat. The person drops, picks or pastes the picture and the box
      decodes it there.
-   - In Claude Code or any client with a shell, use the one-time upload address it returns:
-     `curl -sS -F file=@<path-to-image> '<upload_url>'`, then `decode_image` with `{"image_id": "<image_id>"}`.
-     One image, JPEG, PNG or WebP up to 10 MB; the address closes in 30 minutes.
+   - In Claude Code or any client with a shell, `add_image` also returns a one-time upload address and the exact
+     command that sends the file there. Show the person that command before running it, then call `decode_image`
+     with `{"image_id": "<image_id>"}`. One image, JPEG, PNG or WebP up to 10 MB; the address closes in 30 minutes.
 2. An image on the web: `decode_image` with `{"image_url": "https://..."}`, a public link to a JPEG, PNG or WebP up
    to 10 MB.
 3. A picture this account decoded before comes back as `already_decoded` and nothing is spent. Pass

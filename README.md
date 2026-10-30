@@ -68,7 +68,7 @@ Nothing in this plugin sells anything; plans and credits live on aikizi.com.
 - The MCP server is `https://aikizi.com/mcp`, AIKIZI's own. Claude sends it the tool arguments you see in the
   conversation: a search query, a decode id, an image link, an image id, or a creation id.
 - An image you add with `add_image` goes to a one-time upload address on `https://upload.imagedelivery.net`
-  (Cloudflare Images, where AIKIZI keeps its images), from the drop box or from a `curl` line you can see. It takes
+  (Cloudflare Images, where AIKIZI keeps its images), from the drop box or from an upload command shown to you first. It takes
   one image and closes in 30 minutes.
 - Signed-in tools send an OAuth 2.0 token that AIKIZI issues when you connect. The plugin never reads credentials
   from your machine or environment and asks for none.
