@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "AIKIZI for Claude: search decoded image styles, break them down, and decode your own images with your account.",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "aikizi",
       "source": "./",
-      "description": "Search decoded art styles and their prompts on aikizi.com, break down any published decode, and with your own AIKIZI account decode an image and read your library.",
-      "version": "1.0.1",
+      "description": "Search decoded art styles and their prompts on aikizi.com, break down any published decode, find its look-alikes in the AIKIZI Brain, and with your own AIKIZI account decode an image and read your library.",
+      "version": "1.1.0",
       "author": { "name": "Sharan Ramakrishna", "email": "hello@aikizi.com" },
       "homepage": "https://aikizi.com/guide/mcp",
       "license": "MIT",

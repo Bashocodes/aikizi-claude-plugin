@@ -1,8 +1,8 @@
 {
   "name": "aikizi",
   "displayName": "AIKIZI",
-  "version": "1.0.1",
-  "description": "Search decoded art styles and their prompts on aikizi.com, break down any published decode, and with your own AIKIZI account decode an image and read your library.",
+  "version": "1.1.0",
+  "description": "Search decoded art styles and their prompts on aikizi.com, break down any published decode, find its look-alikes in the AIKIZI Brain, and with your own AIKIZI account decode an image and read your library.",
   "author": {
     "name": "Sharan Ramakrishna",
     "email": "hello@aikizi.com",

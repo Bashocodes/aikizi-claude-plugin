@@ -1,12 +1,12 @@
 ---
 name: aikizi-style-reference
-description: Find and explain image styles with AIKIZI. Use when the person wants a visual reference, a style breakdown, a colour palette, a mood, "how was this made", or a prompt to start an image from. Uses the public search_styles and get_style_decode tools; no sign-in needed.
+description: Find and explain image styles with AIKIZI. Use when the person wants a visual reference, a style breakdown, a colour palette, a mood, "how was this made", more pictures like one, or a prompt to start an image from. Uses the public search_styles, get_style_decode and find_look_alikes tools; no sign-in needed.
 ---
 
 # AIKIZI style reference
 
 AIKIZI (aikizi.com) decodes images the way an art director reads them: styles, style DNA, subjects, moods,
-key tokens, colour hues and a generation prompt. The two public tools read only decodes their owners published.
+key tokens, colour hues and a generation prompt. The public tools read only decodes their owners published.
 
 ## Flow
 
@@ -17,6 +17,8 @@ key tokens, colour hues and a generation prompt. The two public tools read only 
 3. Answer with what the decode says, in this order: styles and style DNA, mood, key tokens, colour hues, then the
    generation prompt as a fenced block the person can copy.
 4. Always give the `aikizi.com/decode/<id>` link for each decode you used, so the person can see the image.
+5. For "more like this one", call `find_look_alikes` with its `id`: the closest pictures in the AIKIZI Brain
+   (aikizi.com/brain), closest first, each with its decode link and a link that opens it in the Brain.
 
 ## Rules
 
