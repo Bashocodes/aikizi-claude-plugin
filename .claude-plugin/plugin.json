@@ -10,8 +10,11 @@
   },
   "homepage": "https://aikizi.com/guide/mcp",
   "repository": "https://github.com/Bashocodes/aikizi-claude-plugin",
+  "documentationUrl": "https://aikizi.com/guide/mcp",
+  "supportUrl": "mailto:hello@aikizi.com",
   "icon": "./.claude-plugin/icon.png",
   "privacyPolicyUrl": "https://aikizi.com/legal/privacy",
+  "termsOfServiceUrl": "https://aikizi.com/legal/terms",
   "license": "MIT",
   "keywords": [
     "aikizi",
