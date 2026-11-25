@@ -53,7 +53,7 @@ sign-in.
 | `decode_image` | yes | yes | Decode an image you added, or one from a public https link |
 | `check_job_status` | yes | no | Follow a decode that is still running |
 | `get_my_decode` | yes | no | Read one of your own decodes |
-| `place_in_brain` | yes | no | Where one of your decodes would sit in the AIKIZI Brain; it stays private |
+| `find_my_look_alikes` | yes | no | Where one of your decodes would sit in the AIKIZI Brain; it stays private |
 | `list_my_creations` | yes | no | List your library |
 | `get_creation` | yes | no | Open one image you generated on aikizi.com |
 
@@ -80,7 +80,7 @@ Nothing in this plugin sells anything; plans and credits live on aikizi.com.
 AIKIZI's privacy policy: https://aikizi.com/legal/privacy · Terms: https://aikizi.com/legal/terms
 
 - The public tools return only decodes their owners chose to publish. Nothing private or unpublished leaves
-  AIKIZI. `place_in_brain` compares your own decode with public ones and never publishes it.
+  AIKIZI. `find_my_look_alikes` compares your own decode with public ones and never publishes it.
 - Signed-in tools act only on the signed-in account and only after you allow the connection. You can revoke it in
   Claude's connector settings or on aikizi.com.
 - Images given to `decode_image` or added with `add_image` are stored in your private library and never

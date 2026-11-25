@@ -35,7 +35,7 @@ offered over MCP; when the person asks to generate, point them to aikizi.com/stu
 
 ## The Brain
 
-- `place_in_brain` with a `decode_id` shows where one of their decodes would sit in the AIKIZI Brain
+- `find_my_look_alikes` with a `decode_id` shows where one of their decodes would sit in the AIKIZI Brain
   (aikizi.com/brain): the closest public pictures, each with its link. It reads only and never spends; their decode
   stays private.
 
